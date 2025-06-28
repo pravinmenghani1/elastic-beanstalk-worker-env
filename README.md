@@ -13,20 +13,8 @@ A Python WSGI application for AWS Elastic Beanstalk with worker environment supp
 
 - `application.py` - Main WSGI application
 - `.ebextensions/cron.config` - Cron job configuration
-- Pre-built deployment packages (zip files)
 
 ## Deployment Instructions
-
-### Option 1: Using Pre-built Package
-
-1. Download `elastic-beanstalk-app-with-cron.zip`
-2. Go to AWS Elastic Beanstalk Console
-3. Create new application or select existing one
-4. Choose "Worker environment" as environment tier
-5. Upload the zip file
-6. Deploy
-
-### Option 2: Build from Source
 
 1. Clone this repository:
    ```bash
